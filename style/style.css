@@ -23,6 +23,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 225px;
 }
 
 .text-pramary {
@@ -53,7 +54,16 @@ nav a {
     text-decoration: none;
     color: #474747;
 }
+
 /* header section stile */
-.header{
-    
+.header {
+    background: #FFF8F3;   
+}
+.banner{
+    padding: 30px 30px 30px 225px;
+    display: flex;
+    align-items: center;
+}
+.profile-picture{
+    width: 580px;
 }
