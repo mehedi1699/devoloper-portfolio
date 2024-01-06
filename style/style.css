@@ -183,35 +183,73 @@ main section {
     gap: 70px;
     margin: 40px auto;
 }
-.resume-title{
-    color:  #474747;
-font-size: 30px;
-font-style: normal;
-font-weight: 700;
+
+.resume-title {
+    color: #474747;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
 }
+
 .resume-item-title {
     color: #474747;
     font-size: 25px;
     font-style: normal;
     font-weight: 700;
 }
-.instute{
-    color:  #757575;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-}
-.resume-item-dis{
+
+.instute {
     color: #757575;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
 }
-.resume-container hr{
+
+.resume-item-dis {
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.resume-container hr {
     margin: 30px 0;
 }
-.download-cv{
+
+.download-cv {
     margin-bottom: 130px;
     margin-top: 70px;
     text-align: center;
+}
+
+/* footer section start here */
+footer {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 230px;
+}
+
+footer p {
+    color: #474747;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    /* max-width: 560px; */
+}
+.footer-colum{
+    width: 50%;
+}
+.contact input,textarea{
+    margin-bottom: 25px;
+    display: block;
+    padding: 18px 35px;
+    color: #757575;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+
+}
+.social a{
+    margin: 25px;
 }
