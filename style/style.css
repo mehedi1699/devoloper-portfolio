@@ -117,11 +117,46 @@ nav a {
     font-style: normal;
     font-weight: 700;
 }
-.about-dis{
+
+.about-dis {
     color: #757575;
-text-align: center;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about-info {
+    text-align: center;
+    color: #757575;
+    font-size: 20px;
+}
+.about-info>p{
+    font-weight: bold;
+}
+#section2-dis{
+    max-width: 910px;
+}
+/* what i do section style start */
+.skills-container{
+    display: flex;
+}
+.skills{
+    padding: 30px;
+    gap: 24px;
+}
+.skills-dis{
+    
 }
